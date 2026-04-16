@@ -33,3 +33,126 @@ h2 {
     font-size: 36px;
     margin-bottom: 50px;
 }
+
+.logo{
+    display:grid;
+    place-content: center;
+    background-color: #F43443;
+}
+.escolhas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8E8E0;
+    height: 283px;
+    bottom: 80px;
+    gap: 30px;
+    
+}
+.escolhas_child{
+    background-color: #62C82D;
+    height: 50px;
+    width: 180px;
+    display: grid;
+    place-items: center;
+    border-radius: 12px;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.personagens{
+    height: 483px;
+    display: grid;
+    place-items: center;
+    background-color: #819DF9;
+    color: white;
+
+}
+.personagens_h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.personagens_personas{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.personagens_personas_child{
+    border-radius: 1100px;
+}
+
+.personagens_personas_child_texto{
+    margin-top: 20px;
+    height: 60px;
+    background-color: rgba(21, 50, 131, 0.705);
+    display: grid;
+    place-items: center;
+    border-radius: 20px;
+}
+
+.poderes{
+    height: 383px;
+    display: grid;
+    place-items: center;
+}
+.poderes_h1{
+    color: white;
+}
+.poderes_parent{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30%;
+    margin-right: 20%;
+    gap: 20px;
+}
+
+.poderes_child{
+    border: 10px solid #E7B300;
+    border-radius: 10px;
+    height: 100px;
+}
+
+.viloes{
+    background-color: #555250;
+    border-color: #FB3603;
+    height: 383px;
+    display: grid;
+    place-items: center;
+}
+.viloes_h1{
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+.viloes_lista{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.viloes_imgs{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin-right: 5px;
+}
+.viloes_child{
+    height: 180px;
+    border-radius: 100%;
+}
+.final{
+    display: grid;
+    place-items: center;
+    margin-left: -5%;
+}
+.final_img{
+    display: flex;
+    justify-content: space-between;
+}
