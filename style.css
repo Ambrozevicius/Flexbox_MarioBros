@@ -155,4 +155,5 @@ h2 {
 .final_img{
     display: flex;
     justify-content: space-between;
+    align-items:baseline;
 }
